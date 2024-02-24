@@ -58,6 +58,9 @@
   .main {
     padding: 0 5%;
   }
+  .logo {
+    margin:1rem 0;
+  }
   .h1 {
     font-size: 2rem;
   }
