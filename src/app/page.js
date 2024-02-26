@@ -14,7 +14,7 @@ export default function Home() {
           <p className={styles.p} data-aos="fade-up">
             At HyperTrove Ventures, we&apos;re dedicated to propelling Cardano-based projects and their surrounding ecosystems into new heights. By investing in the brightest teams within the crypto space, we aim to fast-track your project&apos;s growth and success.
           </p>
-          <button className={styles.button} data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">Pitch To Us</button>
+          <a href="https://forms.gle/SmGLMYbSeo3PQsGcA" className={styles.button} data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">Pitch To Us</a>
         </div>
         <div className={styles.flexRight}>
           <Image
