@@ -43,9 +43,11 @@
 }
 
 .button {
-  width: 171px;
-  padding: 16px ;
+  align-self: flex-start;
+  padding: 16px 20px;
   border-radius: 4px;
+  background-color: white;
+  color: black;
   cursor: pointer;
   margin: 2rem 0;
   font-weight: bold;
