@@ -23,13 +23,13 @@ export default function Home() {
 						Web3 Project
 					</h1>
 					<p className={styles.p} data-aos="fade-up">
-						At HyperTrove Ventures, we're dedicated to propelling
-						web3-based projects and their surrounding ecosystems
-						into new heights.
+						At HyperTrove Ventures, we&apos;re dedicated to
+						propelling web3-based projects and their surrounding
+						ecosystems into new heights.
 						<br />
 						<br /> By investing in the brightest web3 founders
 						within the crypto space, we aim to fast-track your
-						project's growth and success.
+						project&apos;s growth and success.
 					</p>
 					<div
 						className={styles.buttons}
