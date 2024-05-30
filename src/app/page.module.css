@@ -1,74 +1,93 @@
 .main {
-  background-image: url("/background.png");
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 10%;
-  
+	background-image: url("/background.png");
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 10%;
 }
 
 .logo {
-  margin-top: 5%;
+	margin-top: 5%;
 }
 
 .flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .flexLeft {
-  display: flex;
-  flex-direction: column;
-  min-height: 400px;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	min-height: 400px;
+	justify-content: space-between;
 }
 .flexRight {
-  position: relative;
-  z-index: 10;
+	position: relative;
+	z-index: 10;
+	flex: 1;
 }
 
 .h1 {
-  font-size: 3rem;
-  margin: 2rem 0;
+	font-size: 3rem;
+	margin: 2rem 0;
 }
 .p {
-  font-size: 1rem;
-  line-height:1.5rem;
-  max-width: 30rem;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	max-width: 30rem;
+}
+
+.buttons {
+	display: flex;
+	gap: 2rem;
 }
 
 .button {
-  align-self: flex-start;
-  padding: 16px 20px;
-  border-radius: 4px;
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  margin: 2rem 0;
-  font-weight: bold;
+	align-self: flex-start;
+	display: inline-flex;
+	padding: 16px 20px;
+	border-radius: 4px;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	margin: 2rem 0;
+	font-weight: bold;
 }
 
+.button:hover,
+.secondaryButton:hover {
+	transition: all 1ms ease;
+	scale: 1.1;
+}
 
+.secondaryButton {
+	padding: 16px 20px;
+	border-radius: 4px;
+	border: 1px solid #e2b9ff;
+	background-color: transparent;
+	color: #e4beff;
+	cursor: pointer;
+	margin: 2rem 0;
+	font-weight: bold;
+}
 
 /* Mobile */
 @media (max-width: 700px) {
-  .main {
-    justify-content: flex-start;
-    padding: 0 5%;
-  }
-  .logo {
-    margin:1rem 0;
-  }
-  .h1 {
-    font-size: 2rem;
-  }
- .flex {
-  flex-direction: column-reverse;
- } 
-
+	.main {
+		justify-content: flex-start;
+		padding: 0 5%;
+	}
+	.logo {
+		margin: 1rem 0;
+	}
+	.h1 {
+		font-size: 2rem;
+	}
+	.flex {
+		flex-direction: column-reverse;
+	}
 }
