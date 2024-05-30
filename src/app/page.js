@@ -31,14 +31,16 @@ export default function Home() {
 						within the crypto space, we aim to fast-track your
 						project's growth and success.
 					</p>
-					<div className={styles.buttons}>
+					<div
+						className={styles.buttons}
+						data-aos="zoom-in"
+						data-aos-delay="500"
+						data-aos-offset="0"
+					>
 						<a
 							href="https://forms.gle/SmGLMYbSeo3PQsGcA"
 							target="__blank"
 							className={styles.button}
-							data-aos="zoom-in"
-							data-aos-delay="500"
-							data-aos-offset="0"
 						>
 							Pitch To Us
 						</a>
@@ -46,9 +48,6 @@ export default function Home() {
 							href="https://x.com/hyper_trove"
 							target="__blank"
 							className={styles.secondaryButton}
-							data-aos="zoom-in"
-							data-aos-delay="500"
-							data-aos-offset="0"
 						>
 							Follow on X
 						</a>
