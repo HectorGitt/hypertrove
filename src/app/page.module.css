@@ -28,6 +28,7 @@
 .flexRight {
 	position: relative;
 	z-index: 10;
+	flex: 1;
 }
 
 .image {
